@@ -58,6 +58,7 @@ a {
   height: 380px;
   font-size: 40px;
   color: #FFF;
+  width: 100%;
 }
 
 .header h1 {
@@ -68,7 +69,7 @@ a {
 .header .dropdown {
   display: block;
   margin: 0 auto;
-  width: 400px;
+  max-width: 300px;
   height: 40px;
   font-size: 20px;
   opacity: 0.8;
@@ -113,7 +114,7 @@ a {
   border: 2px dashed #559AC8;
   margin: 50px auto;
   bottom: -150px;
-  width: 900px;
+  max-width: 900px;
 }
 
 .header .line i {
@@ -150,21 +151,17 @@ a {
   margin-bottom: 10px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-  width: 464px;
+  width: 48%;
 }
 
 .main > ul li p {
   margin: 10px;
 }
 
-.main > ul li p img {
-  margin-right: 10px;
-}
-
 .main > ul div {
-  width: 464px;
+  width: 100%;
   height: 155px;
-  background-size: 464px 155px;
+  background-size: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +198,7 @@ a {
 
 .main .page ul li {
   text-align: center;
-  width: 60px;
+  max-width: 60px;
 }
 
 .main .page ul li a {
@@ -224,5 +221,23 @@ a {
 
 .footer p {
   margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .main > ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main > ul > li {
+    width: 98%;
+  }
+  .line {
+    display: none;
+  }
 }
 /*# sourceMappingURL=all.css.map */
