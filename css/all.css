@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background: url(/images/Hero.png) center no-repeat;
+  margin: 0 auto;
+  height: 380px;
+  font-size: 40px;
+  color: #FFF;
+}
+
+.header h1 {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.header .dropdown {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.header .hot {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -150px;
+}
+
+.header .hot-text {
+  background: #fff;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px 0px #000;
+          box-shadow: 0px 1px 3px 0px #000;
+}
+
+.header .hot-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 10px;
+  color: #000;
+  text-align: start;
+}
+
+.header .hot-text button {
+  width: 120px;
+  margin: 0 15px;
+  margin-bottom: 15px;
+}
+
+.header .line {
+  text-align: center;
+}
+
+.header .line hr {
+  position: relative;
+  border: 2px dashed #559AC8;
+  margin: 50px auto;
+  bottom: -150px;
+  width: 900px;
+}
+
+.header .line i {
+  color: #559AC8;
+  position: relative;
+  bottom: -80px;
+}
+
+.main {
+  margin-top: 150px;
+}
+
+.main .main-title {
+  text-align: center;
+  font-size: 36px;
+  color: #8A82CC;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.main > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main > ul li {
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  width: 464px;
+}
+
+.main > ul li p {
+  margin: 10px;
+}
+
+.main > ul li p img {
+  margin-right: 10px;
+}
+
+.main > ul div {
+  width: 464px;
+  height: 155px;
+  background-size: 464px 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #fff;
+}
+
+.main > ul div h2 {
+  font-size: 24px;
+  margin: 10px 10px;
+}
+
+.main > ul div p {
+  margin: 10px 10px;
+}
+
+.main > ul .label {
+  float: right;
+}
+
+.main .page ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .page ul li {
+  text-align: center;
+  width: 60px;
+}
+
+.main .page ul li a {
+  display: block;
+  padding: 10px;
+  color: #4A4A4A;
+  font-size: 14px;
+}
+
+.main .page ul li a:hover {
+  color: #559AC8;
+}
+
+.footer {
+  background: #559AC8;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.footer p {
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .header .hot {
+    display: none;
+  }
+  .header .line hr {
+    bottom: -200px;
+  }
+  .header .line i {
+    bottom: -130px;
+  }
+}
+/*# sourceMappingURL=all.css.map */
