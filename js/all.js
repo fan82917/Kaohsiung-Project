@@ -33,7 +33,7 @@ function changedropdown(e){
     let str = '';
     for(let i = 0; i < len; i++){
         if(area==listData[i].Zone){
-        str+='<li><div style="background-image:url('+listData[i].Picture1+');"><h2>'+listData[i].Name+'</h2><p>'+listData[i].Zone+'</p></div><p><img src="/images/icons_clock.png" alt="">'+listData[i].Opentime+'</p><p><img src="/images/icons_pin.png" alt="">'+listData[i].Add+'</p><p><img src="/images/icons_phone.png" alt="">'+listData[i].Tel+'</p><p class="label"><img src="/images/icons_tag.png" alt="">'+listData[i].Ticketinfo+'</p></li>';  
+        str+='<li><div style="background-image:url('+listData[i].Picture1+');"><h2>'+listData[i].Name+'</h2><p>'+listData[i].Zone+'</p></div><p><img src="images/icons_clock.png" alt="">'+listData[i].Opentime+'</p><p><img src="images/icons_pin.png" alt="">'+listData[i].Add+'</p><p><img src="images/icons_phone.png" alt="">'+listData[i].Tel+'</p><p class="label"><img src="images/icons_tag.png" alt="">'+listData[i].Ticketinfo+'</p></li>';  
         }      
     }
     maintitle.textContent = area;
