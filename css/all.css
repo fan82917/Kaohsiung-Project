@@ -225,16 +225,4 @@ a {
 .footer p {
   margin: 10px;
 }
-
-@media (max-width: 768px) {
-  .header .hot {
-    display: none;
-  }
-  .header .line hr {
-    bottom: -200px;
-  }
-  .header .line i {
-    bottom: -130px;
-  }
-}
 /*# sourceMappingURL=all.css.map */
